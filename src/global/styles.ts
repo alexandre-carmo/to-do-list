@@ -1,17 +1,18 @@
 import styled from "styled-components";
+import {View, TextInput, Text} from 'react-native';
 
-export const ListToDo = styled.View`
+export const ListToDo = styled(View)`
   padding: 15px;
 `;
 
-export const InputToDo = styled.TextInput`
+export const InputToDo = styled(TextInput)`
   background-color: #fff;
   margin-bottom: 20px;
   border-radius: 5px;
   padding: 10px;
 `;
 
-export const TextListToDo = styled.Text`
+export const TextListToDo = styled(Text)`
   color: #ffffff;
   font-size: 18;
   margin-bottom: 10;
